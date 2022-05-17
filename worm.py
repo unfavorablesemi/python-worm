@@ -10,14 +10,14 @@ def Randoomiser():
 	chars = 'abcdefghijklmnopqrstuvwxyz0123456789'
 	Length = random.randint(1,11)
 	for i in range(length):
-		name += random.choice(chars)
+		\ += random.choice(chars)
 	return name
 
 def Recreate(Fi_Name,Folder):
 	try:
 		os.mkdir(folder)
 		os.chdir(folder)
-		file = open(Fi_Name,'w')
+		file = open(Fi_Name, + '.py' 'w')
 		File.write(Data)
 		File.close
 		os.chdir("..")
